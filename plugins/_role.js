@@ -2,9 +2,9 @@ const roles = {
   /*
   'Role Name': <Minimal Level To Obtain this Role>
   */
-  'Bronze V': 0,
-  'Bronze IV': 2,
-  'Bronze III': 5,
+  'BRONZE V': 0,
+  'BRONZE IV': 2,
+  'BRONZE III': 5,
   'GOLD I': 8,
   'GOLD II': 10,
   'GOLD III': 14,
