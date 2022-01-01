@@ -148,7 +148,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3Button(m.chat, text.trim(), 'BAKA BOTZ', 'OWNER', '#owner', 'DONASI', '#donasi', 'INFO', '#info', m)
+    await conn.send3Button(m.chat, text.trim(), 'BOT WANGSAF V2', 'OWNER', '#owner', 'DONASI', '#donasi', 'INFO', '#info', m)
     let pp = await conn.getProfilePicture(conn.user.jid).catch(_ => path.join(__dirname, '../src/avatar_contact.png'))
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
