@@ -2,13 +2,13 @@ const roles = {
   /*
   'Role Name': <Minimal Level To Obtain this Role>
   */
-  'Beginner': 0,
-  'Kitten Town': 10,
-  'Black Woods': 20,
-  'Farmount': 30,
-  'Rosenvale': 40,
-  'Amberhill': 50,
-  'Master Fap': 60,
+  'Bronze V': 0,
+  'Bronze IV': 2,
+  'Bronze III': 5,
+  'GOLD I': 8,
+  'GOLD II': 10,
+  'GOLD III': 14,
+  'PLATINUM I': 17,
   'Master Woods': 80,
   'Legend': 90
 }
