@@ -14,10 +14,12 @@ const roles = {
   'DIAMOND II': 27,
   'EPIC' : 30,
   'GOD' : 35, 
-  'MASTER' :45,
-  'LEGEND' :50,
-  'GRANDMASTER I' :55,
-  '
+  'MASTER' : 45,
+  'LEGEND' : 50,
+  'GRANDMASTER I' : 55,
+  'GRANDMASTER II' : 60,
+  'GRANDMASTER III' : 70,
+  'ZEUS' : 100
 }
 
 module.exports = {
