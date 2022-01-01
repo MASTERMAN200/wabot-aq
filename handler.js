@@ -142,7 +142,7 @@ module.exports = {
           banned: false,
           pc: 0,
           level: 0,
-          role: 'Warrior V',
+          role: 'BRONZE I',
           autolevelup: false,
           lastclaim: 0,
           money: 1000,
