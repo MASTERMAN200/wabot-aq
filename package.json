@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
+  "name": "WANGSAF-BOT",
   "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "description": "RECODE BY PILAR :V",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -24,7 +24,7 @@
   ],
   "homepage": "https://github.com/Nurutomo/wabot-aq",
   "author": {
-    "name": "Nurutomo"
+    "name": "LortPilz"
   },
   "repository": {
     "type": "git",
