@@ -9,8 +9,15 @@ const roles = {
   'GOLD II': 10,
   'GOLD III': 14,
   'PLATINUM I': 17,
-  'Master Woods': 80,
-  'Legend': 90
+  'PLATINUM II': 20,
+  'DIAMOND I': 24,
+  'DIAMOND II': 27,
+  'EPIC' : 30,
+  'GOD' : 35, 
+  'MASTER' :45,
+  'LEGEND' :50,
+  'GRANDMASTER I' :55,
+  '
 }
 
 module.exports = {
