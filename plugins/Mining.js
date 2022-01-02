@@ -8,17 +8,19 @@ let handler = async (m, { conn }) => {
     let minam = `${Math.floor(Math.random() * 374)}`.trim() 
     let minkm = `${Math.floor(Math.random() * 383)}`.trim() 
     let exp = `${Math.floor(Math.random() * 490)}`.trim() 
-
+    let trash = `${Math.floor(Math.random() * 620)}`.trim() 
+    let diamond = `${Math.floor(Math.random() * 320)}`.trim() 
    if ( user.pickaxe > 0 ) {
     if (new Date - user.lastmining > 3000000) {
        
       user.xp += exp * 1
-      user.emas += minim * 1
+      user.sampah += trash * 1
+      user.diamond += diamond * 1
       user.iron += minam * 1
       user.string += minkm * 1
       user.lastmining = new Date * 1
             
-    m.reply(`Kamu Menambang Di ${pickRandom(['⛰️Lembah', '⛰️Goa mletre', '🏞️Sungai Selandia', '⛰️Goa texas', '...'])}\n*⚒️Hasil Tambang:* 🪙Emas: *${minim}*\n⛓️Besi: *${minam}*\n🕸️String: *${minkm}*\nExp: *${exp}*`)
+    m.reply(`Kamu Menambang Di ${pickRandom(['⛰️Lembah', '⛰️Goa mletre', '🏞️Sungai Selandia', '⛰️Goa texas', '...'])}\n*⚒️Hasil Tambang:* 🪙Emas: *${minim}*\nDiamond: *${diamond}*\nSampah: *${trash}*⛓️Besi: *${minam}*\n🕸️String: *${minkm}*\nExp: *${exp}*`)
       } else conn.sendButton( m.chat, `Tunggu ${timers} lagi, untuk menambang`,`Cek inv`, `.inv`, m)
     } else conn.sendButton( m.chat, `Kamu Tidak Mempunyai *⛏️Pickaxe* untuk menambang\nBuat Lah Pickaxe menggunakan string kayu dan batu!`, `Craft Pickaxe`, `.craft pickaxe`,m )
   }
