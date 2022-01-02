@@ -27,8 +27,8 @@ handler.all = async function (m) {
         let uptime = clockString(_uptime)
         //let _muptime = await muptime()
         let random = [
-            `❏ Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : 'Publik'} | XZER BOTZ | Nemu Bug? Ketik #report`,
-            `❏ Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : 'Publik'} | XZER BOTZ | Nemu Bug? Ketik #report`,
+            `❏ Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : 'Publik'} | BOT WANGSAF | Nemu Bug? Ketik #report`,
+            `❏ Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : 'Publik'} | BOT WANGSAF | Nemu Bug? Ketik #report`,
         ]
         await this.setStatus(pickRandom(random)).catch(_ => _)
         this.lastSetStatus = new Date * 1
